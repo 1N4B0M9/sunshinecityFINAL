@@ -1,0 +1,71 @@
+/* CSS Document */
+body{
+background: #1A8FEC;
+margin: 0px;
+padding: 0px;
+color: white;
+font-family: 'Oswald', sans-serif;
+text-align: center;
+font-size: 30px;
+
+}
+button{
+  backface-visibility: hidden;
+  background-color: #FFCC00;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  
+  padding: 13px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+img{
+height: 250px;
+width: 250px;
+margin: 0px;
+padding: 0px;
+}
+
+
+
+button:hover {
+  background-color: rgba(245,170,0,1.00);
+}
+a{
+  text-decoration:none ;
+  color: white;
+  text-align: left;
+
+}
+h3{
+  margin-left: 20px;
+}
+a:hover{
+  color:yellow;
+}
+.credit{
+  font-size: 15px;
+}
+@media screen and (max-width:611px){
+  h4{
+      font-size:20px;
+  }
+  .credit{
+    font-size: 15px;
+  }
+  h3{
+    font-size: 25px;
+  }
+
+  
+  
+}

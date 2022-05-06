@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: left;
+    position: absolute;
+}
+h1{
+        position: absolute;
+        display: block;
+        z-index: 99;
+        text-align: left;
+        margin-left: 20px;
+
+        
+}
+a{
+    color: white;
+}
+a:hover{
+    color:yellow;
+}
+@media screen and (max-width:611px){
+   h1{
+       font-size:20px;
+   }
+
+
+   
+   
+}

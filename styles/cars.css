@@ -1,0 +1,127 @@
+html{
+    height: 100%;
+}
+body{
+    /*background: #1A8FEC;*/
+
+   
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+   /* background: black;*/
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+
+  
+
+
+}
+
+
+header{
+
+    background: black;
+    color: white;
+    padding: 20px;
+    margin: 0px;
+
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+div{
+    color: white;
+    background-image: linear-gradient(  rgb(0,0,0),rgb(12, 63, 105),rgb(26, 143, 236));
+  /*  background-repeat: no-repeat;
+    background-attachment: fixed;
+    */
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+.info{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 300px;
+    
+}
+a:hover{
+    color: yellow;
+}
+
+.ground{
+    background: rgb(50, 53, 56);
+    margin: 0px;
+    size: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 350px;
+    
+
+}
+.ground #car{
+   height: 50%;
+   margin-top: 120px;
+   margin-right: 100px;
+
+}
+
+.ground #cloud{
+    width: 50%;
+    height: 100%;
+    margin-left: 100px;
+    
+    
+ 
+ 
+ 
+ }
+ footer{
+    background: rgb(50, 53, 56);
+    text-align: center;
+
+ }
+ /*flex code*/
+ @media screen and (max-width:911px){
+     .ground #car{
+         height: 40%;
+     }
+     .ground #cloud{
+         height: 90%;
+     }
+
+
+    
+    
+}
+@media screen and (max-width:730px){
+    .ground #car{
+        height: 30%;
+    }
+    .ground #cloud{
+        height: 80%;
+    }
+
+
+   
+   
+}
+@media screen and (max-width:611px){
+    .ground #car{
+        height: 40%;
+    }
+    .ground #cloud{
+        height: 90%;
+    }
+
+
+   
+   
+}
+
