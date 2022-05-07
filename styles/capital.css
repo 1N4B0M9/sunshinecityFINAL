@@ -1,0 +1,33 @@
+/* CSS Document */
+body{
+	
+	background: #1A8FEC;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	background-image: url("../../styles/buildingtopFINAL.png"), url("../../dist/styles/building.png");
+	background-repeat: no-repeat, repeat;
+
+	background-size: 100%;
+	
+
+}
+a:hover{
+	color: yellow;
+}
+h3{
+	margin: 10px;
+}
+p{
+	margin-left: 50%;
+	margin-top:150px;
+}
+footer{
+	background: #282828;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
