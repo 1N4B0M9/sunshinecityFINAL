@@ -7,7 +7,7 @@ body{
 	color: white;
 	font-family: 'Oswald', sans-serif;
 	font-size: 30px;
-	background-image: url("../../styles/buildingtopFINAL.png"), url("../../dist/styles/building.png");
+	background-image: url("../../dist/styles/buildingtopFINAL.png"), url("../../dist/styles/building.png");
 	background-repeat: no-repeat, repeat;
 
 	background-size: 100%;

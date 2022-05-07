@@ -1,5 +1,5 @@
 body{
-    background-image: url("../../images/dirt.png");
+    background-image: url("../../dist/images/dirt.png");
 	background-repeat:  repeat;
 
 	background-size: 100%;
