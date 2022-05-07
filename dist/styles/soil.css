@@ -1,0 +1,26 @@
+body{
+    background-image: url("../../dist/images/dirt.png");
+	background-repeat:  repeat;
+
+	background-size: 100%;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 30px;
+
+}
+p{
+    margin: 10px;
+    margin-bottom:80px;
+    margin-top: 80px;
+}
+header a:hover{
+    color: yellow;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+
+}
